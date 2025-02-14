@@ -1,7 +1,7 @@
 
 # Image Generation Using Stable Diffusion & ComfyUI
 
-This collection dives into Stable Diffusion, a smart AI tool that can create impressive images, along with ComfyUI, a user-friendly interface that gives you more control over how the images are made.
+This repository explores Stable Diffusion, a powerful AI model for generating high-quality images, and ComfyUI, a modular node-based interface that enhances control and customization.
 
 
 
@@ -97,6 +97,81 @@ Press "Generate" to produce the image based on your prompt.
 
 
 
+## WorkFlow
+
+![Workflow](https://github.com/Khushijain83037/Image-Generation-using-stable-diffusion-Comfy-UI-/blob/main/images/WorkFlow.png?raw=true)
+
+
+## Running Tests
+
+Run the Prompt
+
+```bash
+ A majestic lion roaring in the wild, with golden fur and piercing eyes, standing on a cliff during sunset
+
+```
+
+
+## Output
+
+![Output](https://github.com/Khushijain83037/Image-Generation-using-stable-diffusion-Comfy-UI-/blob/main/images/ComfyUI_00030_.png?raw=true)
+
+
+## Test 2
+
+Run the Prompt
+
+```bash
+ A surreal underwater scene with colorful fish swimming around coral reefs, with light filtering from above the water.
+
+```
+
+
+## Output 2
+
+![Output](https://github.com/Khushijain83037/Image-Generation-using-stable-diffusion-Comfy-UI-/blob/main/images/ComfyUI_00031_.png?raw=true)
+
+
+## Troubleshooting
+"RuntimeError: Numpy is not available"
+This error can occur if numpy is not installed. You can fix this by installing it via:
+
+```
+pip install numpy==1.26.4
+```
+
+"ModuleNotFoundError: No module named 'safetensors'"
+This indicates that the safetensors package is missing. Install it using:
+
+
+```
+pip install safetensors
+
+```
+
+```
+"Model not found" error
+Ensure the checkpoint model is correctly placed in the models directory and is named correctly. Update your configuration if necessary.
+
+```
+## Optimizations
+
+1️⃣ Use Low VRAM Optimization
+
+2️⃣ Optimize Batch Processing
+
+3️⃣ Reduce Model Size with VAEs
+
+4️⃣ Enable CUDA Graphs for Speedup
+
+5️⃣ Use Efficient Samplers
+
+6️⃣ Optimize for CPU Users
+
+
+## Demo Video
+
+[🎥 Watch the demo](https://github.com/Khushijain83037/Image-Generation-using-stable-diffusion-Comfy-UI-/blob/main/Demo/Demo.mp4)
 
 
 ## Credits
@@ -105,6 +180,13 @@ Press "Generate" to produce the image based on your prompt.
  - [Stable Diffusion Models](https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive/blob/main/v1-5-pruned-emaonly-fp16.safetensors)
  - [Python](https://www.python.org/)
 
+### About Me  
+I'm **Khushi Jain**, a **BTech 3rd-year student** with experience in **Frontend & Backend Development**.  
+I am familiar with:  
+- **Frontend**: HTML, CSS, ReactJS  
+- **Backend**: PHP, Java  
+- **Database**: SQL  
+## 🔗 Links
 
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/khushi-jain-570a3a271/)
 
-[
